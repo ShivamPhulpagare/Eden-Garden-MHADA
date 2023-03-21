@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+header {
+  background-color: #62F0B4;
+  color: #62F0B4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #30a4ff;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main */
+
+main {
+  margin-top: 100px;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(117, 97, 97, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner h2 {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #30a4ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #2c8cd6;
+}
+
+.amenities {
+  background-color: #f1f1f1;
+  padding: 50px;
+}
+
+.amenities h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.amenities ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.amenities li {
+  width: 30%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.amenity-image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.amenity-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.amenity-image img:hover {
+  transform: scale(1.1);
+}
+
+.amenities h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.floorplan h2{
+      text-align: center;
+}
+
+.fp img{
+      display: block;
+      max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.gallery h2{
+        text-align: center;
+}
+.gall img{
+     .fp img
+      display: block;
+      max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact h2 {
+          text-align: center;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact p {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.contact div {
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+.contact a {
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	transition: all 0.3s ease-in-out;
+}
+
+.contact a:hover {
+	color: #f7d700;
+}
+
+/* Footer */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex
